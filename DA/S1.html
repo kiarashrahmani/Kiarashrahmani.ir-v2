@@ -11,7 +11,7 @@
             height: 100%;
             overflow: hidden;
         }
-        iframe {
+        #pdf-viewer {
             width: 100vw;
             height: 100vh;
             border: none;
@@ -20,7 +20,10 @@
 </head>
 <body>
 
-    <iframe src="https://da-class.s3.ir-thr-at1.arvanstorage.ir/s1%2FData%20structure%20&%20Algorithms-S1.pdf?versionId="></iframe>
+    <iframe 
+        id="pdf-viewer" 
+        src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://da-class.s3.ir-thr-at1.arvanstorage.ir/s1%2FData%20structure%20&%20Algorithms-S1.pdf"
+    ></iframe>
 
 </body>
 </html>
